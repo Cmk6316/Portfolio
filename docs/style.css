@@ -1,0 +1,19 @@
+body {
+   background: white;
+               
+}
+img {
+  width: 15%;
+  
+}
+section.pictures {
+    display:flex;
+    background:grey;
+    
+}
+section.pictures img{
+    width: 80%;
+}
+figcaption{
+    padding:1vw;
+}

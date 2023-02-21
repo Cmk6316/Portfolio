@@ -16,15 +16,9 @@
         <!-- Here is a place where we can add a little styling code called CSS to this page. 
             I used it to apply a background color to the body element.
         -->
-        <style>
-            body {
-                background: white; ;
-            }
-            
-            img {width: 15%;}
-        
-        </style> 
-        
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+
     </head>
     <body>
         <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
@@ -38,20 +32,27 @@
             <li>Angle of View</li>
             <li>Rule of Thirds</li>
         </ul>
-        
-        <p>The seven concepts of good picture taking are used to determine what is a good looking picture. They are also techniques used in professional photography.</p>
-        <h2>Perspective</h2>
-        <img src="perspective.HEIC" alt="An example picture of perspective" />  
-        <h3>Angle of View</h3>
-        <img src="Angle%20of%20View.JPG" alt="An example picture of Angle of View" />
-        <h4>Cropping</h4>
-        <img src="Cropping.JPG" alt="An example picture of cropping" />
-        <h5>Balance</h5>
-        <img src="Balance.JPG" alt="An example picture of Balance"/>
-        <h6>Rule of Thrids</h6>
-        <img src="Rule%20of%20thirds.JPG" alt="An example picture of rule of thirds" />
-        <h1>Lines</h1>
-        <img src="Lines.JPG" alt="An example picture of Lines" />
-        
+        <p>The seven concepts of good picture taking are used to determine what is a good looking
+            picture. They are also techniques used in professional photography.</p>
+        <section class="pictures">
+            <figure><figcaption>Perspective</figcaption>
+                <img src="images/perspective.jpg" alt="An example picture of perspective"
+                 /></figure>
+            <figure>
+                <figcaption>Angle of View</figcaption>
+                <img src="images/AngleofView.JPG" alt="An example picture of Angle of View" />
+            </figure>
+            <figure><figcaption>Cropping</figcaption>
+                <img src="images/Cropping.JPG" alt="An example picture of cropping" /></figure>
+        </section>
+        <section class="pictures">
+            <figure><figcaption>Balance</figcaption>
+                <img src="images/Balance.JPG" alt="An example picture of Balance" /></figure>
+            <figure><figcaption>Rule of Thirds</figcaption>
+                <img src="images/Ruleofthirds.JPG" alt="An example picture of rule of thirds"
+                 /></figure>
+            <figure><figcaption>Lines</figcaption>
+                <img src="images/Lines.JPG" alt="An example picture of Lines" /></figure>
+        </section>
     </body>
 </html>

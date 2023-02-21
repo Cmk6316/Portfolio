@@ -10,63 +10,48 @@
             It holds important information about the website's contents.
             The text inside the <title> element does show in the top tab of a web browser. 
              The <head> is where we will include info about styling the site, too. -->
-        <title>Intro HTML</title>
+        <title>Starter HTML</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Here is a place where we can add a little styling code called CSS to this page. 
             I used it to apply a background color to the body element.
         -->
-        <!-- This code below is called CSS: It stands for Cascading Stylesheets -->
-        <link rel="stylesheet" type="text/css" href="style.css" />
-  
+        <style>
+            body {
+                background: white; ;
+            }
+            
+            img {width: 15%;}
+        
+        </style> 
+        
     </head>
     <body>
         <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>My Gallery</h1>
-        <nav>
-            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a href="resume.html">Resume</a> 
-        </nav>
-        <section>
-            <h2>Second Level Block Heading</h2>
-            <figure>
-                <img src="images/newt-mosaic4.png" alt="mosaic image of firebelly newt" />
-                <figcaption>a stylized image of a firebelly newt that Dr. B made as a web logo on <a
-                        href="https://newtfire.org">newtfire.org</a></figcaption>
-            </figure>
-            <p>Here is some sample HTML to look at. This is a body paragraph with some
-                    <strong>inline</strong> code to <em>feature</em> some text. Here is <a
-                    href="https://behrend.psu.edu/penn-state-behrend">a link to an external
-                    website</a>.</p>
-            <p>One of the <a href="https://bulletins.psu.edu/">best resources</a> for learning HTML
-                is <a href="https://www.w3schools.com/html/default.asp">w3Schools</a>. Here is a
-                reference for <a href="https://htmlcolorcodes.com/">color codes you can use for
-                    styling</a>.</p>
-            <p>Each p element is a <strong>block</strong> element designed to make a block on the
-                page.</p>
-        </section>
-        <section>
-            <h2>What are block elements good for?</h2>
-            <p>The next element after this is a ul, or <q>unordered list</q>. It makes a bulleted
-                list. Let's make a link to the <a href="https://bulletins.psu.edu/">Penn State
-                    Bulletin</a> (which is where you can read information about classes and
-                programs). </p>
-            <ul>
-                <li>headings</li>
-                <li>paragraphs</li>
-                <li>lists</li>
-                <li>tables</li>
-                <li>images</li>
-            </ul>
-            <p>How about we look at an ol element, or <q>ordered</q> list? The code looks very
-                similar to the <q>unordered</q> list. You have to see the difference by viewing in a
-                web browser.</p>
-            <ol>
-                <li>morning</li>
-                <li>noon</li>
-                <li>afternoon</li>
-                <li>evening</li>
-                <li>night</li>
-            </ol>
-        </section>
+        <h1>The seven concepts of a good picture taking</h1>
+        <ul>
+            <li>Perspective</li>
+            <li>Framing</li>
+            <li>Lines</li>
+            <li>Balance</li>
+            <li>Cropping</li>
+            <li>Angle of View</li>
+            <li>Rule of Thirds</li>
+        </ul>
+        
+        <p>The seven concepts of good picture taking are used to determine what is a good looking picture. They are also techniques used in professional photography.</p>
+        <h2>Perspective</h2>
+        <img src="perspective.HEIC" alt="An example picture of perspective" />  
+        <h3>Angle of View</h3>
+        <img src="Angle%20of%20View.JPG" alt="An example picture of Angle of View" />
+        <h4>Cropping</h4>
+        <img src="Cropping.JPG" alt="An example picture of cropping" />
+        <h5>Balance</h5>
+        <img src="Balance.JPG" alt="An example picture of Balance"/>
+        <h6>Rule of Thrids</h6>
+        <img src="Rule%20of%20thirds.JPG" alt="An example picture of rule of thirds" />
+        <h1>Lines</h1>
+        <img src="Lines.JPG" alt="An example picture of Lines" />
+        
     </body>
 </html>

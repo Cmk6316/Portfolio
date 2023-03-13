@@ -17,3 +17,9 @@ section.pictures img{
 figcaption{
     padding:1vw;
 }
+nav {
+    font: 40px;
+    text-align: center;
+    background:black;
+    color:white;
+}

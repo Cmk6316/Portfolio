@@ -1,25 +1,69 @@
 body {
-   background: white;
-               
+    background: darkgrey;
+
 }
 img {
-  width: 15%;
-  
+    width: 15%;
+
 }
 section.pictures {
-    display:flex;
-    background:grey;
-    
+    display: flex;
+    background: lightgrey;
+
 }
-section.pictures img{
+section.pictures img {
     width: 80%;
 }
-figcaption{
-    padding:1vw;
+
+figcaption {
+    padding: 1vw;
 }
-nav {
-    font: 40px;
-    text-align: center;
-    background:black;
-    color:white;
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+
+
+li a:hover {
+    background-color: #111;
+}
+object {
+    position: fixed;
+    height: 660px;
+    width: 700px;
+    left: 300px;
+    right: 300px;
+    bottom: 8px;
+    border: 2px;
+}
+
+
+    
+
+
+
+img {
+    width: 800px;
+    max-height: 800px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+    
+    
+}
+.text-box {
+    color: #fff;
+}
+.text-box p {
+    font-size: 30px;
+}
+p.abtmeessay {
+    font-size: 18px;
+    color: #fff;
 }

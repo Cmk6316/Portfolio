@@ -142,3 +142,26 @@ p.abtmeessay {
     font-size: 18px;
     color: #fff;
 }
+section.gg{
+    display: flex;
+    margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  float:left;
+  
+}
+h1.itv{
+    text-align:center;
+    font-size:30px;
+}
+p.gamedis1{
+    font-size: 30px;
+    color: #fff;
+}
+p.gamedis2{
+    font-size: 30px;
+    color: #fff;
+}
+h2.h2game{
+    
+}
